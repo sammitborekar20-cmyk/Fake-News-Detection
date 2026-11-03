@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Datasets
+Dataset/
+data/
+*.csv
+*.json
+
+# Model weights and artifacts
+Model/
+*.pkl
+*.joblib
+*.pt
+*.pth
+*.h5
+*.keras
+*.onnx
+
+# Logs and caches
+*.log
+.cache/
+
+# macOS and editors
+.DS_Store
+.vscode/
+.idea/
