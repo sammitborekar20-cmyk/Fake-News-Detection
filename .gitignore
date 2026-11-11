@@ -1,38 +1,25 @@
-# Python
+
+# Python environment
+venv/
+.venv/
 __pycache__/
 *.py[cod]
 
-# Virtual environments
-venv/
-.venv/
-env/
-
-# Secrets
+# Environment variables and secrets
 .env
 .env.*
 !.env.example
 
-# Datasets
-Dataset/
-data/
-*.csv
-*.json
-
-# Model weights and artifacts
-Model/
-*.pkl
-*.joblib
-*.pt
-*.pth
-*.h5
-*.keras
-*.onnx
-
-# Logs and caches
-*.log
-.cache/
-
-# macOS and editors
+# macOS
 .DS_Store
-.vscode/
-.idea/
+
+# Temporary files
+.ipynb_checkpoints/
+*.log
+
+# External evaluation dataset
+Dataset/real_world_test.csv
+
+# Generated individual prediction records
+Reports/real_world_predictions.csv
+Reports/real_world_misclassified.csv
